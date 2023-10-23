@@ -1,5 +1,16 @@
-﻿for (int i = 100; i >= 0; i = i-2)
+﻿static void ForLoop()
 {
-    Console.WriteLine(i);
+    for (int i = 100; i >= 0; i = i - 2)
+    {
+        Console.WriteLine(i);
+    }
+    Console.WriteLine("Finished!");
 }
-Console.WriteLine("Finished!");
+
+int number = 100;
+while (number >=0)
+{
+    Console.WriteLine(number);
+    number--;
+}
+Console.WriteLine("Now number is {0}", number);
