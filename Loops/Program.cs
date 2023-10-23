@@ -7,10 +7,23 @@
     Console.WriteLine("Finished!");
 }
 
-int number = 100;
-while (number >=0)
+static void WhileLoop()
 {
-    Console.WriteLine(number);
-    number--;
+    int number = 100;
+    while (number >= 0)
+    {
+        Console.WriteLine(number);
+        number--;
+    }
+    Console.WriteLine("Now number is {0}", number);
 }
-Console.WriteLine("Now number is {0}", number);
+
+static void DoWhileLoop()
+{
+    int number = 10;
+    do
+    {
+        Console.WriteLine(number);
+        number--;
+    } while (number >= 11);
+}
