@@ -1,4 +1,6 @@
-﻿static void ForLoop()
+﻿using System.Runtime.CompilerServices;
+
+static void ForLoop()
 {
     for (int i = 100; i >= 0; i = i - 2)
     {
@@ -28,9 +30,36 @@ static void DoWhileLoop()
     } while (number >= 11);
 }
 
-string[] students = new string[3] { "Engin", "Demir", "Salih" };
-
-foreach (var stundent in students)
+static void ForEachLoop()
 {
-    Console.WriteLine(stundent);
+    string[] students = new string[3] { "Engin", "Demir", "Salih" };
+
+    foreach (var stundent in students)
+    {
+        Console.WriteLine(stundent);
+    }
+}
+
+static bool IsPrimeNumber(int number)
+{
+    bool result = true;
+    for (int i = 2; i < number; i++) {
+        if (number % i == 0)
+        { 
+            result = false;
+            i = number;
+        }
+    }
+
+    return result;
+}
+
+if (IsPrimeNumber(10))
+{
+    Console.WriteLine("This is a prime number");
+}
+
+else
+{
+    Console.WriteLine("This is not a prime number");
 }
