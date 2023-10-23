@@ -27,3 +27,10 @@ static void DoWhileLoop()
         number--;
     } while (number >= 11);
 }
+
+string[] students = new string[3] { "Engin", "Demir", "Salih" };
+
+foreach (var stundent in students)
+{
+    Console.WriteLine(stundent);
+}
