@@ -21,6 +21,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "25.10.2023 Ders", "25.10.20
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecapDemo", "RecapDemo\RecapDemo.csproj", "{3BDF1E24-D90F-4507-9FFC-3A0796432B01}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{9D669DF0-F61A-4D3B-8457-F5E85C956BAF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{3BDF1E24-D90F-4507-9FFC-3A0796432B01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3BDF1E24-D90F-4507-9FFC-3A0796432B01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3BDF1E24-D90F-4507-9FFC-3A0796432B01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D669DF0-F61A-4D3B-8457-F5E85C956BAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D669DF0-F61A-4D3B-8457-F5E85C956BAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D669DF0-F61A-4D3B-8457-F5E85C956BAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D669DF0-F61A-4D3B-8457-F5E85C956BAF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
