@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strings", "Strings\Strings.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Classes", "Classes\Classes.csproj", "{4212BCFF-3A29-4B5A-B2F7-2986E55ED141}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "25.10.2023 Ders", "25.10.2023 Ders\25.10.2023 Ders.csproj", "{82FE4E22-C6E3-4B95-9A5B-6EE27F0BFA2D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "25.10.2023 Ders", "25.10.2023 Ders\25.10.2023 Ders.csproj", "{82FE4E22-C6E3-4B95-9A5B-6EE27F0BFA2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecapDemo", "RecapDemo\RecapDemo.csproj", "{3BDF1E24-D90F-4507-9FFC-3A0796432B01}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{82FE4E22-C6E3-4B95-9A5B-6EE27F0BFA2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82FE4E22-C6E3-4B95-9A5B-6EE27F0BFA2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82FE4E22-C6E3-4B95-9A5B-6EE27F0BFA2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BDF1E24-D90F-4507-9FFC-3A0796432B01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BDF1E24-D90F-4507-9FFC-3A0796432B01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BDF1E24-D90F-4507-9FFC-3A0796432B01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BDF1E24-D90F-4507-9FFC-3A0796432B01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
